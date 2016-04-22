@@ -3,6 +3,13 @@ Angular2 quickstart guide is using SystemJS and has no clear explanation how to 
 This project gives an example of Angular2 project with GruntJS build and RequireJS integration. I needed RequireJS to support 
 some legacy business logic code written in JavaScript using AMD modules.  
 
+## Running
+You need globally installed grunt-cli and typescript npm modules:
+- clone repository
+- npm install
+- grunt
+- launch your favorite web server in /build folder
+
 ## Angular2 changes
 - Selected UMD build files
 - Removed SystemJS polyfill and library
